@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    background: #696b7c;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+main{
+    align-items: center;
+    width: 20rem;
+    height: 15rem;
+    justify-content: center;
+    margin: auto;
+}
+
+section {
+    background-color: #cccccc;
+    box-shadow: 10px 7px 5px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    height: 10.5rem;
+    align-items: center;
+}
+
+legend {
+    text-transform:uppercase;
+    font-size: larger;
+    margin: .5em;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+input {
+    margin: 0.5rem;
+    
+}
+
+.setLogin{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;   
+}
+
+.setCadastro{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    
+}
+
+.hide {
+    display: none;
+}
+
+.abas button {
+    background: #9ea5f3 ;
+    border:none;
+    width: 80px;
+    height: 30px;
+    
+}
+
+.abas .ativa {
+    background-color: #fff;
+    color: #000000;
+    text-decoration: underline;
+
+}
+
+.abas {
+    width: auto;
+    white-space: nowrap;
+}

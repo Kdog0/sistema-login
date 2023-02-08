@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="abas">
+            <button id="btn1" class="ativa">Login</button>
+            <button id="btn2">Cadastre-se</button>
+        </div>
+        <section>
+            <form class="form">
+                <div class='setLogin'>
+                    <legend>Login</legend>
+                    <input class="logemail" required type="email" name="email" placeholder="Seu email">
+                    <input class="logpass" required type="password" name="password" placeholder="Sua Senha">
+                    <button class="entrar">Entrar</button>
+                </div>
+            </form>
+            <form class="hide">
+                <div class="setCadastro">
+                    <legend>Cadastro</legend>
+                    <input type="email" name="email" id="emailCad" required placeholder="Seu email">
+                    <input type="password" min="8" max="15" name="password" id="passwordCad" required
+                        placeholder="Digite sua senha">
+                    <input type="password" min="8" max="15" name="password" id="passwordChecked" required
+                        placeholder="Repita sua senha">
+                    <button class="pronto">casdastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
